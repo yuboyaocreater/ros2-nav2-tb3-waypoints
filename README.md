@@ -1,5 +1,7 @@
 # ROS 2 Nav2 TurtleBot3 Waypoints
 
+![TurtleBot3 Nav2 demo](docs/demo.png)
+
 Multi-goal navigation for TurtleBot3 in Gazebo with Nav2 (ROS 2 Jazzy). Scripts send `NavigateToPose` goals in sequence. Two pedestrians walk back and forth across the path; the robot stops when the front laser sector is occupied and resumes after they pass (no detour).
 
 Related: [mujoco-panda-grasp](https://github.com/yuboyaocreater/mujoco-panda-grasp) (tabletop arm grasping).
